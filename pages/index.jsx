@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from '@/styles/Home.module.css';
 import { getModels } from '@/utils/api';
 import Layout from '@/components/Layout';
+import Footer from '@/components/Footer';
 import ModelCard from '@/components/ModelCard';
 
 const ModelsPage = () => {
