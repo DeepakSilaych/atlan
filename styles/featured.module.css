@@ -1,0 +1,48 @@
+.top{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h2{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.top .subNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0.3rem .3rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.top .subNav button{
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 1rem 1.2rem;
+  transition: all 0.1s ease;
+}
+
+.top .subNav button:hover{
+  background-color: #f1f9ff;
+}
+
+.top .subNav .active{
+  background-color: #dfe2ff;
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    height: min-content;
+  }
+  
+}

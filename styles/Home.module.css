@@ -1,0 +1,94 @@
+.searchInput {
+  width: 70%;
+  padding: 1rem 0 1rem 1.2rem;
+  border: .1rem solid #ccc;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1rem;
+  margin: 2rem auto 0 auto;
+}
+
+.searchBarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.herosection {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-star;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  z-index: 12;
+  position: relative;
+  color: white;
+}
+
+.herosection h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2rem 0 1rem 0;
+}
+
+.herosection p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+.bgsvg {
+  position: absolute;
+  width: 100%;
+  height: 27rem;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.bgsvg img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: none;
+}
+
+.bgsvg :nth-child(1) {
+  display: block;
+}
+
+@media (max-width: 1080px) {
+  .herosection h2 {
+    font-size: 2.5rem;
+  }
+
+  .herosection p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .herosection h2 {
+    font-size: 2rem;
+  }
+
+  .herosection p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bgsbg {
+  height: 27rem;
+  }
+}

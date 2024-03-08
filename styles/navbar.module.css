@@ -1,0 +1,103 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  border-radius: 0 0 1rem 1rem;
+  position: relative;
+  z-index: 999;
+  height: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbarNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navItem {
+  margin-right: 1rem;
+  padding-left: .7rem;
+}
+
+.navItem:first-child {
+  padding-left: 0;
+}
+
+.navItem:not(:first-child) {
+  border-left: .1rem solid black;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.navLink span{
+  display: flex;
+  align-items: center;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbarNav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .navItem {
+    margin: 0;
+    padding: 1rem;
+    border: none;
+  }
+
+  .navItem:not(:first-child) {
+    border-left: none;
+  }
+
+  .navLink {
+    color: black;
+  }
+
+  .navbarNav.open {
+    display: flex;
+  }
+}
