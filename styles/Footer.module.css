@@ -88,3 +88,62 @@
   padding: 10px 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+  }
+  .footerSection {
+    padding: 20px;
+  }
+
+  .footersection h1{
+    text-align: center;
+    width: 100%;
+  }
+  .footerSection .contact span{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footerSection .quickLinks li{
+    margin-bottom: 1rem;
+  }
+  .footerSection a{
+    color: #0693E3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .footerSection a:hover{
+    text-decoration: underline;
+  }
+  .logoText {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .quickLinks li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .textInput {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #0693E3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .footerBottom {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

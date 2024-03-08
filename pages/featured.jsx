@@ -4,6 +4,7 @@ import ModelCard from '../components/ModelCard';
 import { getFeaturedModels } from '../utils/api';
 import styles from '@/styles/featured.module.css';
 import Footer from '@/components/Footer.js';
+import Head from 'next/head.js';
 
 const FeaturedPage = ({ featuredModels }) => {
   const [data, setData] = useState(featuredModels.trending || []);
@@ -29,6 +30,9 @@ const FeaturedPage = ({ featuredModels }) => {
 
   return (
     <>
+    <Head>
+      <title>ML Excange | Featured</title>
+    </Head>
     <Layout>
       <div className={styles.featuredContainer}>
         <div className={styles.top}>

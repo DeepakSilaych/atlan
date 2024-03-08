@@ -4,6 +4,7 @@ import { getModels } from '@/utils/api';
 import Layout from '@/components/Layout';
 import Footer from '@/components/Footer';
 import ModelCard from '@/components/ModelCard';
+import Head from 'next/head';
 
 const ModelsPage = () => {
   const [models, setModels] = useState([]);
@@ -54,6 +55,9 @@ const ModelsPage = () => {
 
   return (
     <>
+    <Head>
+      <title>ML Excange | Explore</title>
+    </Head>
     <Layout>
       <div className={styles.modelsContainer}>
           <BGSVG/>

@@ -1,6 +1,8 @@
 import Layout from '@/components/Layout';
 import { useState } from 'react';
 import styles from '@/styles/provider.module.css';
+import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 const ModelProvider = () => {
   const [formData, setFormData] = useState({
@@ -54,6 +56,9 @@ const ModelProvider = () => {
 
   return (
     <Layout color={!showForm && '#0693E3'}>
+      <Head>
+        <title>ML Excange | Model Provider</title>
+      </Head>
         {!showForm ? (
           <div className={styles.ProviderWindow}>
             <h2>Contribute to the Machine Learning Model Database</h2>
@@ -64,6 +69,7 @@ const ModelProvider = () => {
 
 
         ) : (
+          <>
           <div className={styles.container}>
             <form onSubmit={handleSubmit} className={styles.form}>
               <div className={styles.formGroup}>
@@ -184,6 +190,8 @@ const ModelProvider = () => {
               <button type="submit" className={styles.submitBtn}>Submit</button>
             </form> 
           </div>
+          <Footer />
+          </>
         )}
     </Layout>
   );
