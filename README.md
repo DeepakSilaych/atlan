@@ -16,7 +16,7 @@ MLExchange consists of several key features:
 
 ## Framework and Dependencies
 
-- **Framework**: This project is built using [React](https://reactjs.org/) for the frontend.
+- **Framework**: This project is built using [NextJS](https://nextjs.org/) for the frontend.
 - **Dependencies**: We leverage various libraries and tools to enhance the functionality and aesthetics of the application, including [Framer Motion](https://www.framer.com/motion/) for animations, [Axios](https://axios-http.com/) for API requests, and [Lucide](https://github.com/lucide-icons/lucide) for icons.
 
 ## Page Load Time
