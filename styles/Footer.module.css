@@ -1,0 +1,90 @@
+.footer {
+  background-color: rgba(255, 255, 255, .7);
+  color: black;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, .1);
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footerSection {
+  flex: 1;
+  padding: 0 20px;
+}
+
+
+.footerSection p{
+  margin-bottom: 1rem;
+}
+
+.footerSection .contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSection .contact span{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footerSection .quickinks{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSection .quickLinks li{
+  margin-bottom: 1rem;
+}
+
+.footerSection a{
+  color: #0693E3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerSection a:hover{
+  text-decoration: underline;
+}
+
+
+.logoText {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.quickLinks li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.textInput {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #0693E3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footerBottom {
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

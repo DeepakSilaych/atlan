@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from './Footer';
 import styles from '@/styles/layout.module.css';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';

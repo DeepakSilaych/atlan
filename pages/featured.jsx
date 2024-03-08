@@ -3,14 +3,16 @@ import Layout from '../components/Layout.js';
 import ModelCard from '../components/ModelCard';
 import { getFeaturedModels } from '../utils/api';
 import styles from '@/styles/featured.module.css';
+import Footer from '@/components/Footer.js';
 
 const FeaturedPage = ({ featuredModels }) => {
-  const [data, setData] = useState(featuredModels || []);
+  const [data, setData] = useState(featuredModels.trending || []);
   const [activeTab, setActiveTab] = useState('trending');
 
   useEffect(() => {
     console.log("featuredModels:", featuredModels);
     console.log("data:", data);
+    console.log(data.trending);
   }, [featuredModels, data]);
 
   const handleSubNavClick = (type) => {
@@ -26,6 +28,7 @@ const FeaturedPage = ({ featuredModels }) => {
   };
 
   return (
+    <>
     <Layout>
       <div className={styles.featuredContainer}>
         <div className={styles.top}>
@@ -56,6 +59,8 @@ const FeaturedPage = ({ featuredModels }) => {
         ))}
       </div>
     </Layout>
+    <Footer />
+    </>
   );
 };
 

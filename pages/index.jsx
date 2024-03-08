@@ -52,6 +52,7 @@ const ModelsPage = () => {
   const stopInfiniteScroll = filteredModels.length === models.length;
 
   return (
+    <>
     <Layout>
       <div className={styles.modelsContainer}>
           <BGSVG/>
@@ -75,6 +76,8 @@ const ModelsPage = () => {
         {!loading && stopInfiniteScroll && <div>All models have been loaded.</div>}
       </div>
     </Layout>
+    <Footer />
+    </>
   );
 };
 
