@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MLExchange - AI Model Marketplace
 
-## Getting Started
+MLExchange is a platform designed to showcase various AI models deployed by organizations and developers. This application allows users to browse through a collection of models, explore their details, and even try them out in action. The platform aims to provide an informative and engaging experience for both developers and enthusiasts interested in AI and machine learning.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+MLExchange consists of several key features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Browsing Models**: Users can browse through a variety of AI models available on the platform. Each model is presented with its name, category, short description, and provider information.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Featured Models**: Some models are highlighted as featured, indicating their popularity or significance. These models are showcased separately, providing additional visibility and recognition.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Model Details**: Users can dive deeper into specific models by accessing dedicated pages. These pages include detailed descriptions of the model, information about the provider, example code snippets, and potential use cases.
 
-## Learn More
+4. **Provider Registration**: There's also a space for model providers to register their models on the platform. This allows new models to be added to the browsing space seamlessly.
 
-To learn more about Next.js, take a look at the following resources:
+## Framework and Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: This project is built using [React](https://reactjs.org/) for the frontend.
+- **Dependencies**: We leverage various libraries and tools to enhance the functionality and aesthetics of the application, including [Framer Motion](https://www.framer.com/motion/) for animations, [Axios](https://axios-http.com/) for API requests, and [Lucide](https://github.com/lucide-icons/lucide) for icons.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Page Load Time
 
-## Deploy on Vercel
+The average page load time for MLExchange is approximately 350-400 milliseconds, excluding animation duration. We've optimized the application to ensure a smooth and responsive user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Optimization Efforts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To enhance performance and decrease load time, we've implemented several optimizations:
+
+1. **Lazy Loading**: Components are lazily loaded to improve initial page load times.
+2. **Code Splitting**: We've split our code into smaller chunks to only load what's necessary for each page, reducing initial bundle size.
+3. **Image Optimization**: Images are optimized for the web to minimize file size without compromising quality.
+4. **Minification**: Code is minified to reduce file size and improve load times.\
+
+## Project Links
+
+- **GitHub Repository**: [Link](https://github.com/yourusername/ml-exchange](https://github.com/DeepakSilaych/atlan/))
+- **Deployed Application**: [Link](https://mlexchange.netlify.app/)
+
+Feel free to explore MLExchange and discover a world of AI models at your fingertips! If you have any feedback or suggestions, we'd love to hear from you. Happy browsing!
