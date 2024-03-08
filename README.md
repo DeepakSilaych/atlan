@@ -37,4 +37,4 @@ To enhance performance and decrease load time, we've implemented several optimiz
 - **GitHub Repository**: [Link](https://github.com/yourusername/ml-exchange](https://github.com/DeepakSilaych/atlan/))
 - **Deployed Application**: [Link](https://mlexchange.netlify.app/)
 
-Feel free to explore MLExchange and discover a world of AI models at your fingertips! If you have any feedback or suggestions, we'd love to hear from you. Happy browsing!
+Feel free to explore MLExchange and discover a world of AI models at your fingertips! If you have any feedback or suggestions, I'd love to hear from you. Happy browsing!
