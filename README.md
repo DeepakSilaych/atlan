@@ -1,6 +1,6 @@
 # MLExchange - AI Model Marketplace
 
-MLExchange is a platform designed to showcase various AI models deployed by organizations and developers. This application allows users to browse through a collection of models, explore their details, and even try them out in action. The platform aims to provide an informative and engaging experience for both developers and enthusiasts interested in AI and machine learning.
+MLExchange is a platform designed to showcase various AI models deployed by organizations and developers. This application allows users to browse through a collection of models, explore their details, and even try them out in action. The platform aims to provide an informative and engaging experience for both developers and enthusiasts interested in AI and machine learning. *Currently we don't support buying and selling on our platform.*
 
 ## Overview
 
