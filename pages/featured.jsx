@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Layout from '../components/Layout.js';
 import ModelCard from '../components/ModelCard';
-import { getFeaturedModels } from '../utils/api';
+import { getFeaturedModels } from '@/utils/api';
 import styles from '@/styles/featured.module.css';
 import Footer from '@/components/Footer.js';
 import Head from 'next/head.js';
